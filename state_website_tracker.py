@@ -5,7 +5,7 @@ import time
 from datetime import date
 import os
 from os import path
-
+import pdfkit
 #Dictionary that includes each state and website
 stateDict = {
     "cdc" : "https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/cases-in-us.html#2019coronavirus-summary",
